@@ -25,7 +25,7 @@ $success = $updateStmt->execute([$ticketNumber]);
 
 if ($success) {
     // Setup cURL to call Node.js service to send email
-    $curl = curl_init('http://localhost:3001/send-close-notification');
+    $curl = curl_init('https://secret-atoll-63693-f79a45670cae.herokuapp.com/send-close-notification');
     $payload = json_encode([
         'name' => $ticket['name'],
         'email' => $ticket['email'],
