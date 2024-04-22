@@ -26,7 +26,7 @@ $success = $stmt->execute([$name, $email, $phone, $issueType, $userType, $descri
 
 if ($success) {
     //  Node.js service to send email
-    $url = 'http://localhost:3001/send';
+    $url = 'http://localhost:3001/send-feedback';
     $payload = json_encode([
         "name" => $name,
         "email" => $email,
