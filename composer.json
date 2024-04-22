@@ -1,0 +1,15 @@
+{
+  "name": "abho11/feedback-tool",
+  "description": "Feedback/Issue Reporting tool for pre-interview project.",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arunabh",
+      "email": "royarunabh121@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}
